@@ -1,3 +1,54 @@
 body {
-    background-color: #fff;
+    margin: 0;
+    font-family: Arial;
 }
+   header {
+       background: #333;
+       color: white;
+       padding: 15px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+   nav a {
+       color: white;
+       margin-left: 10px;
+       text-decoration: none;
+   }
+
+   main {
+       padding: 20px;
+       min-height: 300px;
+   }
+
+   footer {
+       background: #222;
+       color: white;
+       text-align: center;
+       padding: 10px;
+   }
+
+   
+
+
+
+
+
+   .card-container {
+       display: flex;
+       /* Включає Flexbox */
+       flex-wrap: wrap;
+       /* Дозволяє переносити картки на новий ряд, якщо не вміщаються */
+       justify-content: space-around;
+       /* Вирівнює картки з відстанню між ними */
+       margin: 20px;
+       /* Відступи ззовні контейнера */
+   }
+
+   .card {
+       width: 18rem;
+       /* Ширина картки */
+       margin: 10px;
+       /* Відступи між картками */
+   }
